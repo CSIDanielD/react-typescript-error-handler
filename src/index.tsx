@@ -3,7 +3,7 @@ import { render } from "react-dom";
 import { Provider } from "react-redux";
 import { ConnectedRouter } from "connected-react-router";
 import { createBrowserHistory } from "history";
-import configureStore from "./store/configureStore";
+import configureStore from "./redux/configureStore";
 import App from "./App";
 
 // Create browser history to use in the Redux store

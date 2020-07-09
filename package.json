@@ -1,7 +1,7 @@
 {
-  "name": "react-typescript-error-handler",
+  "name": "react-redux-typescript-error-handler",
   "version": "1.0.0",
-  "description": "",
+  "description": "Based on this post: https://itnext.io/centralizing-api-error-handling-in-react-apps-810b2be1d39d",
   "keywords": [],
   "main": "src/index.tsx",
   "dependencies": {
