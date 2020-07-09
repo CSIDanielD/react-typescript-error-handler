@@ -15,6 +15,7 @@ export const DogPage: React.FC = props => {
   });
 
   const imageSrc = data?.message;
+  
   return (
     <div>
       <div>

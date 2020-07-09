@@ -1,7 +1,9 @@
 import React from "react";
 import ErrorPage from "./ErrorPage";
 
-export const ErrorHandler: React.FC = props => {
+export interface ErrorHandlerProps {}
+
+export const ErrorHandler: React.FC<ErrorHandlerProps> = props => {
   const returnCode = 200;
   if (returnCode >= 400)
     return (
