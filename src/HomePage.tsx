@@ -13,7 +13,7 @@ const breeds = [
 export const HomePage: React.FC = props => {
   return (
     <div>
-      <h1>Some very nice doggos.</h1>
+      <h1>Some real nice doggos.</h1>
       <ul>
         {breeds.map(breed => (
           <li key={breed}>
